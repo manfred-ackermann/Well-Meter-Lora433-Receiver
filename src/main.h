@@ -12,8 +12,8 @@ int firstLoop = true;
 volatile int seconds = 0;
 volatile int send    = false;
 
-#ifdef THINGSPEAK_API_898346_RW
-const char* thingspeakApiKey = THINGSPEAK_API_898346_RW;
+#ifdef THINGSPEAK_WELLMETER
+const char* thingspeakApiKey = THINGSPEAK_WELLMETER;
 #else
 const char* thingspeakApiKey = "YOURTHINGSPEAKKEY";
 #endif
